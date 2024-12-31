@@ -32,7 +32,8 @@ i{
 }
 
 .navbar{
-  text-align: center;
+  text-align: center
+  display: none;
 }
 
 .link-item{
