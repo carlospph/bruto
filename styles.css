@@ -33,8 +33,10 @@ i{
 
 .navbar{
   text-align: center
-  display: none;
 }
+
+.menu{
+  display:none;
 
 .link-item{
   display: block;
