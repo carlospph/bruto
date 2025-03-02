@@ -1,5 +1,5 @@
-//  const btn = document.getElementById('btn')
-//  const menu = document.getElementById('menu')
+const btn = document.getElementById('btn')
+const menu = document.getElementById('menu')
 
 btn.addEventListener('click',function(){
   if(menu.classList.contains('show')){
