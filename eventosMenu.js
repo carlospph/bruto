@@ -1,10 +1,13 @@
-let menu = document.querySelector('.menu')
+//  const btn = document.getElementById('btn')
+//  const menu = document.getElementById('menu')
 
-function eventoMenu(){
-  if(menu.style.display =='block'){
-    menu.style.display = 'none'
+btn.addEventListener('click',function(){
+  if(menu.classList.contains('show')){
+    menu.classList.remove('show')
+    btn.setAttribute('class','fa-solid fa-xmark')
+  }else{
+    menu.classList.add('show')
+    btn.setAttribute('class','fa-solid fa-bars')
   }
-  else{
-    menu.style.display = 'block'
-  }
-}
+})
+
